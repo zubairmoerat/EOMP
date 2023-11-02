@@ -58,7 +58,7 @@ body{
     background-image: linear-gradient(to bottom,rgb(56, 62, 134),rgb(132, 237, 235));
     height: 100vh;
     color: #fff;
-    position: absolute;
+    position: relative;
 }
 .rule{
     margin: 0;
@@ -81,5 +81,35 @@ body{
     height: 220px;
 }
 .about h2{
+    text-shadow: 2px 2px 4px #000;
+}
+/*projects*/
+.project{
+    width: 100%;
+    padding: 80px 12%;
+    background-image: linear-gradient(to bottom,rgb(56, 62, 134),rgb(132, 237, 235));
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+.row-project{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+.col-project{
+    flex-basis: 20%;
+}
+.col-project img{
+    width: 150px;
+    height: 150px;
+}
+.project h2{
+    padding-bottom: 40px;
     text-shadow: 2px 2px 4px #000;
 }
