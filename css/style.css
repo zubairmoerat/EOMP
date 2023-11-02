@@ -10,3 +10,42 @@ body{
     font-family: 'Playfair Display', serif;
     text-align: center;
 }
+/*landing*/
+.landing{
+    width: 100%;
+    padding: 30px 12%;
+    background-image: linear-gradient(to bottom,rgb(56, 62, 134),rgb(132, 237, 235));
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.col{
+    flex-basis: 50%;
+}
+.col img{
+    width: 300px;
+    height: 300px;
+    border: double black 5px;
+}
+.col h1{
+    padding-top: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 60px;
+}
+.col h3{
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 40px;
+}
+.col p{
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
