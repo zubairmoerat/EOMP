@@ -20,9 +20,11 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    height: 100vh;
 }
 .col{
     flex-basis: 50%;
@@ -48,4 +50,36 @@ body{
     text-shadow: 2px 2px 4px #000;
     padding-bottom: 40px;
     font-size: 20px;
+}
+/*about*/
+.about{
+    width: 100%;
+    padding: 80px 12%;
+    background-image: linear-gradient(to bottom,rgb(56, 62, 134),rgb(132, 237, 235));
+    height: 100vh;
+    color: #fff;
+    position: absolute;
+}
+.rule{
+    margin: 0;
+    border: #000 solid 5px;
+}
+.row-about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.col-about{
+    flex-basis: 50%;
+}
+.col-about img{
+    width: 220px;
+    height: 220px;
+}
+.about h2{
+    text-shadow: 2px 2px 4px #000;
 }
