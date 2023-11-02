@@ -113,3 +113,9 @@ body{
     padding-bottom: 40px;
     text-shadow: 2px 2px 4px #000;
 }
+/*testimonials*/
+.testimonials{
+    width: 100%;
+    padding: 30px 12%;
+    background-image: linear-gradient(to bottom,rgb(56, 62, 134),rgb(132, 237, 235));
+}
