@@ -19,35 +19,36 @@ body{
     width: 100%;
     padding: 80px 12%;
 }
-.row{
+.rowH{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.col{
+.colH{
     flex-basis: 50%;
 }
-.col img{
+/* .col img{
     width: 300px;
     height: 300px;
     border: double black 5px;
-}
-.col h1{
+} */
+.colH h1{
     padding-top: 150px;
     color: #fff;
     text-shadow: 2px 2px 4px #000;
     font-size: 60px;
 }
-.col h3{
+.colH h3{
     color: #fff;
     text-shadow: 2px 2px 4px #000;
     font-size: 40px;
 }
-.col p{
+.colH p{
     color: #fff;
     text-shadow: 2px 2px 4px #000;
     padding-bottom: 40px;
@@ -86,24 +87,24 @@ body{
     color: #fff;
     position: relative;
 }
-.row-project{
+ .colP{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    width: 100%;
 }
-.col-project{
+/* .col-project{
     flex-basis: 20%;
-}
-.col-project img{
+} */
+
+.imgP{
     width: 150px;
     height: 150px;
     margin-bottom: 40px;
+    object-fit: cover;
 }
 .project h2{
     padding-bottom: 40px;
@@ -176,6 +177,7 @@ input[type="radio"]{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /* flex-wrap: wrap; */
     align-content: center;
     padding-top: 40px;
     column-gap: 50px;
