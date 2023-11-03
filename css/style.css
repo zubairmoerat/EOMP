@@ -178,10 +178,10 @@ input[type="radio"]{
     align-items: center;
     align-content: center;
     padding-top: 40px;
-    column-gap: 20px;
+    column-gap: 50px;
 }
 .col-resume{
-    flex-basis: 25%;
+    flex-basis: auto;
 }
 .col-resume img{
     width: 150px;
@@ -191,18 +191,31 @@ input[type="radio"]{
 .testimonials{
     width: 100%;
     padding: 80px 12%;
+    color: #fff;
 }
-.row-testimonnials{
+.row-testimonials{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    row-gap: 50px;
+}
+.col-testimonials{
+    flex-basis: 25%;
+}
+.col-testimonials img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
 }
 .testimonials h2{
     padding-bottom: 40px;
     text-shadow: 2px 2px 4px #000;
     font-size: 40px;
-    color: #fff;
 }
+.testimonials h3{
+    text-shadow: 2px 2px 4px #000;
+}
+/*contact*/
 .contact{
     width: 100%;
     padding: 80px 12%;
