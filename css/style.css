@@ -90,6 +90,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     align-content: center;
     align-items: center;
     padding-top: 40px;
@@ -102,10 +103,89 @@ body{
 .col-project img{
     width: 150px;
     height: 150px;
+    margin-bottom: 40px;
 }
 .project h2{
     padding-bottom: 40px;
     text-shadow: 2px 2px 4px #000;
+}
+/*resume*/
+.resume{
+    width: 100%;
+    padding: 80px 12%;
+    color: #fff;
+    position: relative;
+}
+.resume h2{
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #000;
+}
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #bbdefb;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    color: #000;
+    border: #000 solid 2px;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #bbdefb;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+    color: #000;
+    border: #000 solid 2px;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.row-resume{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 40px;
+    column-gap: 20px;
+}
+.col-resume{
+    flex-basis: 25%;
+}
+.col-resume img{
+    width: 150px;
+    height: 150px;
 }
 /*testimonials*/
 .testimonials{
