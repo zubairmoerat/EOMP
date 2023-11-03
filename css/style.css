@@ -7,13 +7,10 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     background-image: linear-gradient(to bottom,rgb(56, 62, 134),rgb(132, 237, 235));
 }
-/*section{
-    margin-top: 50px;
-}*/
 /*landing*/
 .landing{
     width: 100%;
@@ -32,11 +29,6 @@ body{
 .colH{
     flex-basis: 50%;
 }
-/* .col img{
-    width: 300px;
-    height: 300px;
-    border: double black 5px;
-} */
 .colH h1{
     padding-top: 150px;
     color: #fff;
@@ -96,10 +88,6 @@ body{
     padding-top: 40px;
     padding-bottom: 40px;
 }
-/* .col-project{
-    flex-basis: 20%;
-} */
-
 .imgP{
     width: 150px;
     height: 150px;
@@ -177,7 +165,6 @@ input[type="radio"]{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
     align-content: center;
     padding-top: 40px;
     column-gap: 50px;
@@ -233,3 +220,4 @@ input[type="radio"]{
 .contact-form{
     padding: 10px;
 }
+/*ALL MY RESPOSIVENESS WAS DONE WITH BOOTSTRAP*/
